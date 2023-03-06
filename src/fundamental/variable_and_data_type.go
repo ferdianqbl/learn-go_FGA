@@ -66,4 +66,12 @@ func main() {
 	)
 
 	fmt.Println(c1, c2, c3)
+
+	const (
+		c4 = iota * 2
+		c5 = iota * 2
+		c6 = iota * 2
+	)
+
+	fmt.Println(c4, c5, c6)
 }
